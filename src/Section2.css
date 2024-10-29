@@ -1,0 +1,55 @@
+.section {
+    display: flex;
+    justify-content: center;
+    margin: 5em 5em;
+    text-align: center;
+    gap: 1em;
+}
+
+.icon {
+    width: 60%;
+    margin-top: 5em;
+}
+
+.cursos {
+    border: 1px solid #5B64F9;
+    border-radius: 10px;
+    box-shadow: -11px -5px 29px 19px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.habilidade {
+    display: none;
+}
+
+@media (max-width:1200px) {
+
+    .section{
+       margin: 1em 3em;
+    }
+    
+    .cursos {
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width:800px) {
+
+    .section{
+        width: 100vh;
+       flex-direction: column;
+       align-items: center;
+       margin: 0;
+    }
+    
+.habilidade {
+    display: block  ;
+}
+
+    .cursos {
+        width: 80%;
+        margin: 0   ;
+    }
+
+}

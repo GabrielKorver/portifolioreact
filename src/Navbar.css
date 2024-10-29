@@ -1,0 +1,48 @@
+/* src/components/navbar/navbar.css */
+
+.navbar {
+    background: linear-gradient(to right, #4C6DFB, #8847F2); /* Gradiente */
+    border-radius: 10px;
+    width: 500px;
+    margin: 3em auto;
+    padding: 10px; /* Espaçamento interno */
+    display: flex; /* Torna o contêiner flexível */
+    justify-content:center; /* Alinha o conteúdo à direita */
+    color: #000;
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove as bolinhas das listas */
+    margin: 0; /* Remove a margem */
+    padding: 0; /* Remove o preenchimento */
+    display: flex; /* Exibe os itens em linha */
+}
+
+.navbar li {
+    margin-left: 20px; /* Espaçamento entre os itens */
+    color: white; /* Cor do texto */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+}
+
+.navbar a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: white; /* Cor do texto */
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease; /* Efeito de transição */
+}
+
+.navbar li:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+@media (max-width:900px) {
+    .navbar{
+        width: 100vh;
+       flex-direction: column;
+       align-items: center ;
+    }
+ 
+}
