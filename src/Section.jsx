@@ -16,7 +16,7 @@ function Section() {
                <strong> Desenvolvedor Full-Stack</strong>
             </p>
             <p>
-               HTML | CSS | JS | TS | REACT | NODE | MONGODB
+               ReactJS | JavaScript | TypeScript | NodeJS
             </p>
             <hr />   
          </div>
